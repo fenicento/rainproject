@@ -1,0 +1,42 @@
+
+path {
+    fill: none;
+    stroke-linejoin: round;
+}
+
+.states,
+.hexagons path {
+    stroke: #fff;
+    fill:#eee;
+}
+
+.vip-states {
+    /*fill:#9ef;*/
+    stroke:#f77;
+    opacity:0.5;
+    stroke-width:2px;
+}
+
+.vip-counties{
+     /*fill:#9ef;*/
+     stroke:#f77;
+     opacity:0.3;
+     stroke-width:1px;
+ }
+svg{
+    border: 1px solid #eee;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.tick text{
+    font-size:9px;
+}
+
+rect.cursor, path.player {
+    cursor:pointer;
+}
